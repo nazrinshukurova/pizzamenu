@@ -5,6 +5,6 @@ import Menu from "./components/Menu/Menu";
 createRoot(document.getElementById("root")).render(
   <>
     <Header />
-    <Menu />
+    <Menu  />
   </>
 );

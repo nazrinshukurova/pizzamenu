@@ -1,0 +1,48 @@
+.menu-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 70px 10px 0px 10px;
+  background-color: black;
+  width: auto;
+  color: white;
+  padding-top: 70px;
+}
+
+.left-side {
+  border-right: 3px solid white;
+  padding-right: 30px;
+  height: 100vh;
+}
+.right-side {
+  padding-right: 30px;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  padding-bottom: 20px;
+}
+.nameAndPrice {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.pizzaName {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.prices {
+  display: flex;
+  gap: 5px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.ingredients {
+  font-size: 13px;
+}
