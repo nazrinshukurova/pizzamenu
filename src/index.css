@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Triodion&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+    font-family: "Triodion", serif;
+    font-weight: 400;
+    font-style: normal;
+}
