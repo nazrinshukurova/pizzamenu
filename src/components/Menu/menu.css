@@ -2,7 +2,7 @@
 .nameAndPhoto {
   display: flex;
   align-items: center;
-  gap: 80px;
+  gap: 100px;
 }
 .ingredientsBox {
   width: 130px;
@@ -11,7 +11,7 @@
 img {
   width: 100px;
   height: 100px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .priceBox {
@@ -27,15 +27,3 @@ h2 {
   font-size: 20px;
 }
 
-/* .left-section,
-.right-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.pizzaItems{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
