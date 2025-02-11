@@ -7,9 +7,24 @@
   color: white;
 }
 .vertical {
-width: 2px;
-background-color: white;
-margin-left: 30px;
-margin-right: 30px;
-margin-bottom: 10px;
+  width: 2px;
+  background-color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 780px) {
+  .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 70px 20px 20px 20px;
+  }
+}
+
+@media (max-width: 630px) {
+  .data {
+    padding: 70px 20px 20px 20px;
+  }
 }

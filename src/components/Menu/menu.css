@@ -1,5 +1,9 @@
-
 .nameAndPhoto {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.topPart {
   display: flex;
   align-items: center;
   gap: 100px;
@@ -27,3 +31,90 @@ h2 {
   font-size: 20px;
 }
 
+@media (max-width: 1250px) {
+  .topPart {
+    gap: 70px;
+  }
+  .priceBox {
+    font-size: 15px;
+  }
+  img {
+    width: 80px;
+    height: 80px;
+  }
+  .ingredientsBox {
+    width: 110px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1042px) {
+  .topPart {
+    gap: 50px;
+  }
+  .priceBox {
+    font-size: 15px;
+  }
+  img {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 970px) {
+  .topPart {
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .priceBox {
+    font-size: 13px;
+    flex-direction: column;
+    height: 80px;
+  }
+}
+
+@media (max-width: 780px) {
+  .nameAndPhoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  .ingredientsBox {
+    width: fit-content;
+  }
+
+  .priceBox {
+    height: fit-content;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 630px) {
+  h2 {
+    font-size: 16px;
+  }
+  .ingredientsBox {
+    font-size: 14px;
+  }
+
+  .nameAndPhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+@media (max-width: 435px) {
+  h2 {
+    font-size: 15px;
+  }
+  .ingredientsBox {
+    font-size: 13px;
+  }
+  .topPart {
+    gap: 20px;
+  }
+}

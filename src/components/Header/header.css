@@ -18,3 +18,45 @@
   padding: 0px 100px;
   box-shadow: 5px -5px black, -5px 5px transparent;
 }
+
+@media (max-width: 1000px) {
+  .pizza-menu-text {
+    left: 20%;
+    top: 35%;
+  }
+}
+
+@media (max-width: 970px) {
+  .pizza-menu-text {
+    left: 20%;
+    top: 35%;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 630px) {
+  .pizza-menu-text {
+    left: 20%;
+    top: 35%;
+    font-size: 35px;
+    padding: 0px 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .pizza-menu-text {
+    left: 22%;
+    top: 35%;
+    font-size: 30px;
+    padding: 0px 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .pizza-menu-text {
+    left: 18%;
+    top: 35%;
+    font-size: 30px;
+    padding: 0px 50px;
+  }
+}

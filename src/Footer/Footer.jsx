@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="down-part">
-        <img src={pizzaSvg} alt="Pizza Icon" />
+        <img className="pizzaIcon" src={pizzaSvg} alt="Pizza Icon" />
       </div>
     </div>
   );

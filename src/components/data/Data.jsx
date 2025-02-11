@@ -141,7 +141,7 @@ const Data = () => {
           </div>
         ))}
       </div>
-<div className="vertical"></div>
+      <div className="vertical"></div>
       <div className="right-section">
         {rightPizzas.map((item) => (
           <div key={item.name}>
