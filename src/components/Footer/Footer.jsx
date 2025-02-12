@@ -1,5 +1,5 @@
 import "./footer.css";
-import pizzaSvg from "../../public/pizza.svg";
+import pizzaSvg from "../../../public/pizza.svg";
 const Footer = () => {
   return (
     <div className="footer">
